@@ -1,7 +1,7 @@
 // let age = 18;
-// console.log(age >= 18);
-let number = 16;
-console.log(number)**2;
+// // console.log(age >= 18);
+// let number = 16;
+// console.log(number)**2;
 
 
 // console.log("This is from Javascript");
