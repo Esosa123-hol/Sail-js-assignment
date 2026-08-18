@@ -388,6 +388,35 @@
 
 
 //Write a loop that prints out all odd numbers between 1-100
+//loop
+// for (let a = 1; a <=100; a++){
+//     console.log(a);
+// } 
+// let b = 1;
+// while(b <= 50){
+//     console.log(b);
+//     b++;
+// }
+// for (a = 1; a <= 20; a++){
+//     let b = `2 x ${a} = ${a*2}`;
+//     console.log(b);
+    
+// }
+
+
 
 //Write a loop that prints out the 2 times multiplication table from 2x1 to 2x20
+// for (a = 1; a <= 20; a++){
+//     let b = `2 x ${a} = ${a*2}`;
+//     console.log(b);
+    
+// }
+
+for (let i = 1; i <= 20; i++) {
+    console.log(`2 x ${i} = ${2 * i}`);
+}
+
 // Write a loop that prints out the only the even numbers of the 2times multiplication table from 2 to 60 e.g 2x2=4, 2x4=8, 2x6=12
+for (let i = 2; i <= 30; i += 2) {
+    console.log(`2 x ${i} = ${2 * i}`);
+}
