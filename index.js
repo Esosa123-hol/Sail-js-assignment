@@ -325,7 +325,12 @@
     // let num2 = (prompt("Enter your second number"));
     // let num3 = (prompt("Enter your last number"));
     // let greatest = Math.max(num1 , num2, num3);
-    //     alert("The greatest number is " + greatest")
+    // let myBigest = 0;
+    // if (num1 > num2) {
+    //     myBigest = num1
+    // } else myBigest
+    //     alert(`The greatest number is ${greatest} `)
+    
 
 
 
@@ -337,7 +342,7 @@
 
 
 
-// 4. Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 play a ticket price of 15.
+// 4. Write a program that calculates the ticket price based on age with the following conditions: age below 12 pay a ticket price of 5, age below 18 pay a ticket price of 10, age below 60 pay a ticket price of 20, age over 60 pay a ticket price of 15.
 // let age = (prompt("Enter your age:"))
 // if (age < 12){
 //     alert("Your ticket price is $5")
@@ -371,12 +376,18 @@
 // }
 
 // Write a simple function that accepts the name of different users
-let fullname = (prompt("Enter your full name"));
-alert(`Welcome ${fullname} `);
+// let fullname = (prompt("Enter your full name"));
+// let fullname = (prompt("Enter your name:"))
+// alert(`Welcome ${fullname} `);
 
 //Write a simple function that give the addition of two numbers
+// let a = parseInt(prompt("Enter your number"));
+// let b =parseInt(prompt("Enter your number")) ;
+// let result = a * b
+// alert(`The answer is ${result}`)
 
 
 //Write a loop that prints out all odd numbers between 1-100
+
 //Write a loop that prints out the 2 times multiplication table from 2x1 to 2x20
 // Write a loop that prints out the only the even numbers of the 2times multiplication table from 2 to 60 e.g 2x2=4, 2x4=8, 2x6=12
